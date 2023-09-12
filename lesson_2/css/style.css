@@ -1,0 +1,11 @@
+
+
+#my_data .data_flex {
+     display: flex;
+     gap: 50px;
+}
+
+.my_foto img{
+    height: 200px;
+    width: auto;
+}
