@@ -1,0 +1,67 @@
+@import url(reset.css);
+
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-Regular.woff2);
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #37393F;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+line-height: 127%; 
+    }
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #6B77E5;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 127%;
+}
+
+
+.inter_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #7d7d7d;
+line-height: 147%;
+}
+
+#two h2 {
+    font-weight: 700;
+    }
+
+.container {
+    width: min(90%, 970px);
+    margin: 0 auto;
+}
+
+#two .inter_font {
+    margin-bottom: 35px;
+}
+
+#two .inter_font:last-child {
+margin-bottom: 0;
+}
+
+ul li {
+    margin-left: 25px;
+    margin-bottom: 30px;
+    list-style-type: disc;
+}
+
+ul li:last-child {
+    margin-bottom: 0;
+}
+
+ol li {
+    margin-bottom: 35px;
+    list-style-type: decimal;
+    margin-left: 25px;
+}
+ ol li:last-child {
+    margin-bottom: 0;
+ }
