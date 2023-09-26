@@ -1,0 +1,158 @@
+@import url(reset.css);
+
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Inter-Regular.woff2) format('woff2');
+}
+
+/* dm-serif-text-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/dm-serif-text-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+.container {
+    width: min(90%, 692px);
+    margin: 0 auto;
+}
+
+/* first section */
+
+
+#first_section {
+padding-top: 45px;
+padding-bottom: 42px;
+}
+
+.people {
+    margin-bottom: 25px;
+}
+
+.people img {
+    width: 100%;
+
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #37393F;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.27;
+    margin-bottom: 18px;
+}
+
+.about_business {
+ font-family: 'Inter', sans-serif;
+ color: #7D7D7D;
+ font-size: 18px;
+ line-height: 1.47;
+}
+
+/* second section */
+
+#second_section {
+    padding-bottom: 100px;
+}
+
+#second_section > .about_business {
+margin-bottom: 40px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+}
+
+#second_section > h3 {
+ color: #6B77E5;
+margin-bottom: 15px;
+}
+
+h2 + h3 {
+    color: #40DDB6;
+    margin-bottom: 24px;
+}
+
+.about_office  {
+/* margin-right: 30px; */
+}
+
+.benefits {
+    display: inline-block;
+    width: 50%;
+    padding-left: 28px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.27;
+    color: #37393F;
+    margin-bottom: 15px;
+}
+
+ul li  {
+    margin-bottom: 35px;
+}
+
+ul li:last-child {
+    margin-bottom: 0px;
+}
+
+
+/* third section */
+
+#third_section {
+    margin-bottom: 50px;
+   
+}
+
+.container2 {
+    width: min(90%, 1182px);
+    margin: 0 auto;
+}
+
+.what_we_do {
+    display: inline-block;
+    width: 48%;
+    margin-right: 38px;
+    padding-top: 28px;
+
+}
+
+h2.what {
+    color: #d06b00;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    margin-bottom: 28px;
+}
+
+.what_we_do h1{
+font-family: 'DM Serif Text', sans-serif;
+font-size: 59px;
+line-height: 1.47;
+color: #0E333D;
+margin-bottom: 30px;
+}
+
+.variations p {
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+line-height: 1.8;
+color: #474747;
+}
+
+#third_section img+img {
+    margin-left: 22px;
+}
