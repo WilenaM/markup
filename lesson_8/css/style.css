@@ -1,0 +1,409 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+/* 1_home_work */
+
+#projects {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container {
+    width: min(90%, 1220px);
+    margin: 0 auto;
+}
+
+.rectangle p {
+    background-image: url("../img/rectan.jpg");
+    margin: 0 auto;
+    width: fit-content;
+    padding-left: 18px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: #37393F;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+#projects h2 {
+    color: #37393F;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    margin-bottom: 14px;
+}
+
+#projects h2~p {
+    color: #7D7D7D;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.46;
+    width: 852px;
+    margin-left: 185px;
+    margin-bottom: 47px;
+
+}
+
+#projects ul {
+    font-size: 0px;
+}
+
+#projects ul li {
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 384px;
+    padding-top: 525px;
+    margin-right: 34px;
+    margin-bottom: 58px;
+}
+
+#projects ul h6 {
+    color: #37393F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.27;
+}
+
+.first {
+    background-image: url('../img/1.jpg');
+}
+
+.second {
+    background-image: url('../img/2.jpg');
+}
+
+#projects .third {
+    margin-right: 0;
+    background-image: url('../img/3.jpg');
+}
+
+.fourth {
+    background-image: url('../img/4.jpg');
+}
+
+.fiths {
+    background-image: url('../img/5.jpg');
+}
+
+#projects .sixth {
+    background-image: url('../img/6.jpg');
+    margin-right: 0;
+}
+
+#projects ul li p {
+    background-image: url('../img/calendar.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 26px;
+    width: fit-content;
+    color: #7D7D7D;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.46;
+    margin-top: 15px;
+}
+
+/* 2_home_work */
+
+#whitecollar {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container2 {
+    width: min(90%, 1023px);
+    margin: 0 auto;
+}
+
+#whitecollar h5 {
+    color: #37393F;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-image: url("../img/rectan.jpg");
+    width: fit-content;
+    padding-left: 18px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-bottom: 16px;
+}
+
+#whitecollar h2 {
+    color: #37393F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.21;
+    margin-bottom: 20px;
+}
+
+#whitecollar p {
+    color: #7D7D7D;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.46;
+    width: 673px;
+}
+
+#whitecollar p+p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#whitecollar ul {
+    margin-bottom: 43px;
+}
+
+#whitecollar ul li {
+    background-image: url('../img/vcector.jpg');
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    color: #37393F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 23px;
+}
+
+#whitecollar .experience {
+    padding: 32px 31px;
+    border: 1px solid gray;
+    height: 140px;
+    display: inline-block;
+    margin-right: 21px;
+    margin-bottom: 37px;
+}
+
+#whitecollar .exp {
+    background-image: url(../img/experience.jpg);
+    background-repeat: no-repeat;
+    width: fit-content;
+    padding-left: 58px;
+
+}
+
+#whitecollar .awards {
+    display: inline-block;
+    padding: 31px 37px 32px;
+    border: 1px solid gray;
+}
+
+#whitecollar .a_winner {
+    background-image: url('../img/awards.jpg');
+    background-repeat: no-repeat;
+    padding-left: 58px;
+    width: fit-content;
+
+}
+
+#whitecollar .experience h4,
+#whitecollar .awards h4 {
+    color: #37393F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-position: left;
+}
+
+#whitecollar .experience p,
+#whitecollar .awards p {
+    color: #7D7D7D;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.35;
+    width: 173px;
+}
+
+#whitecollar a {
+    background-color: #6B77E5;
+    padding: 21px 27px 22px;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    width: fit-content;
+}
+
+#whitecollar a:hover {
+    filter: invert(1);
+}
+
+
+/* 3_home_work */
+
+#fashion {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container3 {
+    width: min(90%, 1240px);
+    margin: 0 auto;
+    font-size: 0;
+}
+
+
+#fashion .patern {
+    background-image: url('../img/patern.jpg');
+    background-repeat: no-repeat;
+    width: fit-content;
+    padding: 183px 74px 175px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#fashion .patern h2 {
+    color: #FFF;
+    font-family: 'Core Sans C', sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0.208px;
+    width: 466px;
+    margin-bottom: 30px;
+}
+
+#fashion .patern p {
+    color: #FFF;
+    font-family: 'Causten', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1px;
+    width: 451px;
+    margin-bottom: 50px;
+}
+
+#fashion .patern a {
+    background-color: #FFF;
+    padding: 12px 44px;
+    color: #3C4242;
+    text-align: center;
+    font-family: 'Causten', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    display: block;
+    width: fit-content;
+
+}
+
+#fashion .patern a:hover {
+    background-color: #3C4242;
+    color: #FFF;
+}
+
+#fashion .peolpe {
+    display: inline-block;
+    background-image: url('../img/people1.jpg');
+    background-repeat: no-repeat;
+    width: 626px;
+    height: 639px;
+    vertical-align: top;
+}
+
+/* 4_home_work */
+
+#clothing {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container4 {
+    width: min(90%, 1240px);
+    margin: 0 auto;
+}
+
+.background {
+    border-radius: 10px;
+    background: #8A33FD;
+    width: 6px;
+    height: 28px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#clothing h3 {
+    display: inline-block;
+    color: #3C4242;
+    font-family: 'Core Sans C', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33.5px;
+    letter-spacing: 0.56px;
+    margin-bottom: 30px;
+}
+
+#clothing h4 {
+    color: #807D7E;
+    font-family: 'Core Sans C', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33.5px;
+    letter-spacing: 0.4px;
+    padding-left: 21px;
+    margin-bottom: 25px;
+}
+
+#clothing p {
+    color: #807D7E;
+font-family: 'Causten', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 33.5px; 
+letter-spacing: 0.4px;
+padding-left: 21px;
+margin-bottom: 20px;
+}
+
+#clothing a {
+    color: #807D7E;
+    font-family: 'Causten', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33.5px; 
+    letter-spacing: 0.4px;
+    padding-left: 21px;
+}
+
+#clothing a:hover {
+    text-decoration: underline;
+}
