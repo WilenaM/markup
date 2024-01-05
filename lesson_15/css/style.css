@@ -1,0 +1,308 @@
+@import "reset.css";
+@import "fonts.css";
+
+.container {
+  width: min(90%, 1240px);
+  margin: 0 auto;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 111px;
+}
+
+.header-flex__left {
+  display: flex;
+  gap: 164px;
+  align-items: center;
+}
+
+.header-flex__right {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.header-auth {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.search-wrapper {
+  position: relative;
+}
+
+.search-wrapper input {
+  background-color: inherit;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #f6f6f6;
+  text-align: center;
+  width: 184px;
+}
+
+.search-wrapper label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../img/search_lupa.svg);
+  background-repeat: no-repeat;
+  padding-left: 32px;
+  height: 20px;
+  color: #807d7e;
+  /* text-align: center; */
+  font-family: "Causten", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.search-wrapper:has(input:focus) label {
+  visibility: hidden;
+}
+
+.search-wrapper label img {
+  margin-right: 12px;
+}
+
+.select-lang-wrapper {
+}
+
+.select-lang {
+  color: #333;
+  font-family: "Causten", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.round-btn {
+  display: block;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  text-align: center;
+  font-family: "Causten", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 12px 48px;
+}
+
+.round-btn--purple {
+  background-color: #8a33fd;
+  color: white;
+}
+
+.round-btn--white {
+  color: #8a33fd;
+  border-color: #3c4242;
+}
+
+.round-btn:hover {
+  opacity: 0.7;
+}
+
+/* next  */
+
+.categories-for-men {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.euphoria-section-title {
+  color: #3c4242;
+  font-family: "Core Sans C", sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+  /* line-height: 33.5px;  */
+  letter-spacing: 0.68px;
+  margin-bottom: 70px;
+  /* display: inline-block; */
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 70px;
+}
+
+/* .euphoria-section-title-background {
+    border-radius: 10px;
+    background: #8A33FD;
+    width: 6px;
+height: 30px;
+margin-right: 26px;
+display: inline-block;
+  } */
+
+.euphoria-section-title::before {
+  content: "";
+  display: inline-block;
+  border-radius: 10px;
+  background: #8a33fd;
+  width: 6px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+
+.categories-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.categories-list__item {
+}
+
+.categories-list__item-img {
+    margin-bottom: 22px;
+    border-radius: 10px;
+}
+
+.categories-list__item-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories-list__item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.euphoria-item-title {
+    line-height: 22px;
+    color: #2A2F2F;
+font-family: 'Causten', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; 
+letter-spacing: -0.04em;
+}
+
+
+.categories-list__item-desc {
+    color: #7F7F7F;
+    font-family: 'Causten', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    letter-spacing: -0.04em;
+}
+
+
+/* section 3 my order */
+
+.my-order {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.my-order-list-item {
+    
+}
+
+.my-order-list-item__heading {
+    background: #F6F6F6;
+    border-radius: 8px;
+    padding: 28px 47px 28px 47px;
+    margin-bottom: 30px;
+}
+
+.my-order-list-item__heading-title {
+margin-bottom: 14px;
+}
+
+.title-h5 {
+color: #3C4242;
+font-family: 'Causten', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.my-order-list-item__data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-order-list-item__info-block {
+    display: flex;
+   flex-direction: column;
+   gap: 7px;
+
+}
+
+.my-order-list-item__info {
+font-family: 'Causten', sans-serif;
+font-size: 14px;
+font-style: normal;
+line-height: normal;
+}
+
+.my-order-list-item__info-desc {
+    color: #807D7E;
+    font-weight: 600;
+}
+
+.my-order-list-item__info-value {
+    color: #BEBCBD;
+    font-weight: 400;
+}
+
+.my-order-list-item__products {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.my-order-list-item__ptoduct-desc {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.my-order-list-item__ptoduct-features {
+display: flex;
+flex-direction: column;
+font-family: 'Causten', sans-serif;
+font-style: normal;
+line-height: normal;
+font-weight: 600;
+}
+
+.my-order-list-item__product-name {
+color: #3C4242;
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+.my-order-list-item__product-param {
+    color: #3C4242;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.my-order-list-item__product-param-val {
+    color: #BEBCBD;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.my-order-list-item__product-param:last-of-type, .my-order-list-item__product-param-val:last-of-type {
+    margin-bottom: 0;
+    color: #BEBCBD
+}
