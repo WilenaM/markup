@@ -1,515 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Flex</title>
-  </head>
-  <body>
-    <header>
-      <div class="container header-flex">
-        <div class="header-flex__left">
-          <div class="header-logo"><img src="img/logo.svg" alt="logo" /></div>
-          <div class="search-wrapper">
-            <label id="search" for="search">Search</label>
-            <input type="text" name="search" />
-          </div>
-        </div>
-        <div class="header-flex__right">
-          <div class="select-lang-wrapper">
-            <select class="select-lang" name="languages">
-              <option value="1">English (united States)</option>
-              <option value="1">Italy</option>
-            </select>
-          </div>
-          <div class="header-auth">
-            <a class="round-btn round-btn--purple" href="#">Login</a>
-            <a class="round-btn round-btn--white" href="#">Sing Up</a>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Flex</title>
+</head>
+
+<body>
+  <header>
+    <div class="container header-flex">
+      <div class="header-flex__left">
+        <div class="header-logo"><img src="img/logo.svg" alt="logo" /></div>
+        <div class="search-wrapper">
+          <label id="search" for="search">Search</label>
+          <input type="text" name="search" />
         </div>
       </div>
-    </header>
-    <main>
-      <section class="categories-for-men">
-        <div class="container">
-          <!-- <div class="euphoria-section-title-background"></div> -->
-          <h2 class="euphoria-section-title">Categories For Men</h2>
-          <ul class="categories-list">
-            <li class="categories-list__item">
-              <img
-                class="categories-list__item-img"
-                src="img/section_2/1.jpg"
-                alt="foto"
-              />
-              <div class="categories-list__item-content">
-                <div class="categories-list__item-info">
-                  <a class="categories-list__item-link" href="/"
-                    ><h4 class="euphoria-item-title">Shirts</h4></a
-                  >
-                  <p class="categories-list__item-desc">Explore Now!</p>
-                </div>
-
-                <a class="categories-list__item-link-arrow" href="/">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="14"
-                    viewBox="0 0 20 14"
-                    fill="none"
-                  >
-                    <path
-                      d="M18.9571 7.71798C19.2843 7.39075 19.2843 6.86022 18.9571 6.533L13.6247 1.20059C13.2975 0.873368 12.7669 0.873368 12.4397 1.20059C12.1125 1.52781 12.1125 2.05835 12.4397 2.38557L17.1796 7.12549L12.4397 11.8654C12.1125 12.1926 12.1125 12.7232 12.4397 13.0504C12.7669 13.3776 13.2975 13.3776 13.6247 13.0504L18.9571 7.71798ZM0.489258 7.9634L18.3646 7.9634V6.28758L0.489258 6.28758L0.489258 7.9634Z"
-                      fill="#797979"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </li>
-            <li class="categories-list__item">
-              <img
-                class="categories-list__item-img"
-                src="img/section_2/2.jpg"
-                alt="foto"
-              />
-              <div class="categories-list__item-content">
-                <div class="categories-list__item-info">
-                  <a class="categories-list__item-link" href="/"
-                    ><h4 class="euphoria-item-title">Printed T-Shirts</h4></a
-                  >
-                  <p class="categories-list__item-desc">Explore Now!</p>
-                </div>
-
-                <a class="categories-list__item-link-arrow" href="/">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="14"
-                    viewBox="0 0 20 14"
-                    fill="none"
-                  >
-                    <path
-                      d="M18.9571 7.71798C19.2843 7.39075 19.2843 6.86022 18.9571 6.533L13.6247 1.20059C13.2975 0.873368 12.7669 0.873368 12.4397 1.20059C12.1125 1.52781 12.1125 2.05835 12.4397 2.38557L17.1796 7.12549L12.4397 11.8654C12.1125 12.1926 12.1125 12.7232 12.4397 13.0504C12.7669 13.3776 13.2975 13.3776 13.6247 13.0504L18.9571 7.71798ZM0.489258 7.9634L18.3646 7.9634V6.28758L0.489258 6.28758L0.489258 7.9634Z"
-                      fill="#797979"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </li>
-            <li class="categories-list__item">
-              <img
-                class="categories-list__item-img"
-                src="img/section_2/3.jpg"
-                alt="foto"
-              />
-              <div class="categories-list__item-content">
-                <div class="categories-list__item-info">
-                  <a class="categories-list__item-link" href="/"
-                    ><h4 class="euphoria-item-title">Plain T-Shirt</h4></a
-                  >
-                  <p class="categories-list__item-desc">Explore Now!</p>
-                </div>
-
-                <a class="categories-list__item-link-arrow" href="/">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="14"
-                    viewBox="0 0 20 14"
-                    fill="none"
-                  >
-                    <path
-                      d="M18.9571 7.71798C19.2843 7.39075 19.2843 6.86022 18.9571 6.533L13.6247 1.20059C13.2975 0.873368 12.7669 0.873368 12.4397 1.20059C12.1125 1.52781 12.1125 2.05835 12.4397 2.38557L17.1796 7.12549L12.4397 11.8654C12.1125 12.1926 12.1125 12.7232 12.4397 13.0504C12.7669 13.3776 13.2975 13.3776 13.6247 13.0504L18.9571 7.71798ZM0.489258 7.9634L18.3646 7.9634V6.28758L0.489258 6.28758L0.489258 7.9634Z"
-                      fill="#797979"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </li>
-            <li class="categories-list__item">
-              <img
-                class="categories-list__item-img"
-                src="img/section_2/4.jpg"
-                alt="foto"
-              />
-              <div class="categories-list__item-content">
-                <div class="categories-list__item-info">
-                  <a class="categories-list__item-link" href="/"
-                    ><h4 class="euphoria-item-title">
-                      Hoodies & Sweetshirt
-                    </h4></a
-                  >
-                  <p class="categories-list__item-desc">Explore Now!</p>
-                </div>
-
-                <a class="categories-list__item-link-arrow" href="/">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="14"
-                    viewBox="0 0 20 14"
-                    fill="none"
-                  >
-                    <path
-                      d="M18.9571 7.71798C19.2843 7.39075 19.2843 6.86022 18.9571 6.533L13.6247 1.20059C13.2975 0.873368 12.7669 0.873368 12.4397 1.20059C12.1125 1.52781 12.1125 2.05835 12.4397 2.38557L17.1796 7.12549L12.4397 11.8654C12.1125 12.1926 12.1125 12.7232 12.4397 13.0504C12.7669 13.3776 13.2975 13.3776 13.6247 13.0504L18.9571 7.71798ZM0.489258 7.9634L18.3646 7.9634V6.28758L0.489258 6.28758L0.489258 7.9634Z"
-                      fill="#797979"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </li>
-            <li class="categories-list__item">
-              <img
-                class="categories-list__item-img"
-                src="img/section_2/5.jpg"
-                alt="foto"
-              />
-              <div class="categories-list__item-content">
-                <div class="categories-list__item-info">
-                  <a class="categories-list__item-link" href="/"
-                    ><h4 class="euphoria-item-title">Jeans</h4></a
-                  >
-                  <p class="categories-list__item-desc">Explore Now!</p>
-                </div>
-
-                <a class="categories-list__item-link-arrow" href="/">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="14"
-                    viewBox="0 0 20 14"
-                    fill="none"
-                  >
-                    <path
-                      d="M18.9571 7.71798C19.2843 7.39075 19.2843 6.86022 18.9571 6.533L13.6247 1.20059C13.2975 0.873368 12.7669 0.873368 12.4397 1.20059C12.1125 1.52781 12.1125 2.05835 12.4397 2.38557L17.1796 7.12549L12.4397 11.8654C12.1125 12.1926 12.1125 12.7232 12.4397 13.0504C12.7669 13.3776 13.2975 13.3776 13.6247 13.0504L18.9571 7.71798ZM0.489258 7.9634L18.3646 7.9634V6.28758L0.489258 6.28758L0.489258 7.9634Z"
-                      fill="#797979"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </li>
-            <li class="categories-list__item">
-              <img
-                class="categories-list__item-img"
-                src="img/section_2/6.jpg"
-                alt="foto"
-              />
-              <div class="categories-list__item-content">
-                <div class="categories-list__item-info">
-                  <a class="categories-list__item-link" href="/"
-                    ><h4 class="euphoria-item-title">Activewear</h4></a
-                  >
-                  <p class="categories-list__item-desc">Explore Now!</p>
-                </div>
-
-                <a class="categories-list__item-link-arrow" href="/">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="14"
-                    viewBox="0 0 20 14"
-                    fill="none"
-                  >
-                    <path
-                      d="M18.9571 7.71798C19.2843 7.39075 19.2843 6.86022 18.9571 6.533L13.6247 1.20059C13.2975 0.873368 12.7669 0.873368 12.4397 1.20059C12.1125 1.52781 12.1125 2.05835 12.4397 2.38557L17.1796 7.12549L12.4397 11.8654C12.1125 12.1926 12.1125 12.7232 12.4397 13.0504C12.7669 13.3776 13.2975 13.3776 13.6247 13.0504L18.9571 7.71798ZM0.489258 7.9634L18.3646 7.9634V6.28758L0.489258 6.28758L0.489258 7.9634Z"
-                      fill="#797979"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </li>
-            <li class="categories-list__item">
-              <img
-                class="categories-list__item-img"
-                src="img/section_2/7.jpg"
-                alt="foto"
-              />
-              <div class="categories-list__item-content">
-                <div class="categories-list__item-info">
-                  <a class="categories-list__item-link" href="/"
-                    ><h4 class="euphoria-item-title">Shirts</h4></a
-                  >
-                  <p class="categories-list__item-desc">Explore Now!</p>
-                </div>
-
-                <a class="categories-list__item-link-arrow" href="/">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="14"
-                    viewBox="0 0 20 14"
-                    fill="none"
-                  >
-                    <path
-                      d="M18.9571 7.71798C19.2843 7.39075 19.2843 6.86022 18.9571 6.533L13.6247 1.20059C13.2975 0.873368 12.7669 0.873368 12.4397 1.20059C12.1125 1.52781 12.1125 2.05835 12.4397 2.38557L17.1796 7.12549L12.4397 11.8654C12.1125 12.1926 12.1125 12.7232 12.4397 13.0504C12.7669 13.3776 13.2975 13.3776 13.6247 13.0504L18.9571 7.71798ZM0.489258 7.9634L18.3646 7.9634V6.28758L0.489258 6.28758L0.489258 7.9634Z"
-                      fill="#797979"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </li>
-            <li class="categories-list__item">
-              <img
-                class="categories-list__item-img"
-                src="img/section_2/8.jpg"
-                alt="foto"
-              />
-              <div class="categories-list__item-content">
-                <div class="categories-list__item-info">
-                  <a class="categories-list__item-link" href="/"
-                    ><h4 class="euphoria-item-title">Shirts</h4></a
-                  >
-                  <p class="categories-list__item-desc">Explore Now!</p>
-                </div>
-
-                <a class="categories-list__item-link-arrow" href="/">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="14"
-                    viewBox="0 0 20 14"
-                    fill="none"
-                  >
-                    <path
-                      d="M18.9571 7.71798C19.2843 7.39075 19.2843 6.86022 18.9571 6.533L13.6247 1.20059C13.2975 0.873368 12.7669 0.873368 12.4397 1.20059C12.1125 1.52781 12.1125 2.05835 12.4397 2.38557L17.1796 7.12549L12.4397 11.8654C12.1125 12.1926 12.1125 12.7232 12.4397 13.0504C12.7669 13.3776 13.2975 13.3776 13.6247 13.0504L18.9571 7.71798ZM0.489258 7.9634L18.3646 7.9634V6.28758L0.489258 6.28758L0.489258 7.9634Z"
-                      fill="#797979"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </li>
-          </ul>
+      <div class="header-flex__right">
+        <div class="select-lang-wrapper">
+          <select class="select-lang" name="languages">
+            <option value="1">English (united States)</option>
+            <option value="1">Italy</option>
+          </select>
         </div>
-      </section>
-      <section class="my-order">
-        <div class="container">
-          <ul class="my-order-list">
-            <li class="my-order-list-item">
-              <div class="my-order-list-item__heading">
-                <h5 class="my-order-list-item__heading-title title-h5">
-                  Order no: #123456789
-                </h5>
-                <div class="my-order-list-item__data">
-                  <div class="my-order-list-item__info-block">
-                    <span class="my-order-list-item__info"
-                      ><strong class="my-order-list-item__info-desc"
-                        >Order Date:</strong
-                      ><time class="my-order-list-item__info-value"
-                        >2 June 2023 2:40 PM</time
-                      ></span
-                    >
-                    <span class="my-order-list-item__info"
-                      ><strong class="my-order-list-item__info-desc"
-                        >Estimated Delivery Date:</strong
-                      ><time class="my-order-list-item__info-value"
-                        >8 June 2023</time
-                      ></span
-                    >
-                  </div>
-                  <div
-                    class="my-order-list-item__info-block my-order-list-item__info-block--right"
-                  >
-                    <span class="my-order-list-item__info"
-                      ><strong class="my-order-list-item__info-desc"
-                        >Order Status:</strong
-                      ><span class="my-order-list-item__info-value"
-                        >Inprogress</span
-                      ></span
-                    >
-                    <span class="my-order-list-item__info"
-                      ><strong class="my-order-list-item__info-desc"
-                        >Payment Method:</strong
-                      ><span class="my-order-list-item__info-value"
-                        >Cash on delivery</span
-                      ></span
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="my-order-list-item__products">
-                <div class="my-order-list-item__ptoduct-desc">
-                  <img
-                    class="my-order-list-item__ptoduct-thumb"
-                    src="img/section_3_my-order/Rectangle 755 (2).jpg"
-                    alt="foto_my_order"
-                  />
-                  <div class="my-order-list-item__ptoduct-features">
-                    <span class="my-order-list-item__product-name"
-                      >Black Printed T-shirt</span
-                    >
-                    <span class="my-order-list-item__product-param"
-                      >Colour:<span
-                        class="my-order-list-item__product-param-val"
-                        >Pink</span
-                      ></span
-                    >
-                    <span class="my-order-list-item__product-param"
-                      >Qty:<span class="my-order-list-item__product-param-val"
-                        >1</span
-                      ></span
-                    >
-                    <span class="my-order-list-item__product-param"
-                      >Total:<span class="my-order-list-item__product-param-val"
-                        >23000$</span
-                      ></span
-                    >
-                  </div>
-                </div>
-                <a  class="round-btn round-btn--purple" href="/">View Detail</a>
-              </div>
-            </li>
-            <li class="my-order-list-item">
-                <div class="my-order-list-item__heading">
-                  <h5 class="my-order-list-item__heading title-h5">
-                    Order no: #123456789
-                  </h5>
-                  <div class="my-order-list-item__data">
-                    <div class="my-order-list-item__info-block">
-                      <span class="my-order-list-item__info"
-                        ><strong class="my-order-list-item__info-desc"
-                          >Order Date:</strong
-                        ><time class="my-order-list-item__info-value"
-                          >2 June 2023 2:40 PM</time
-                        ></span
-                      >
-                      <span class="my-order-list-item__info"
-                        ><strong class="my-order-list-item__info-desc"
-                          >Estimated Delivery Date:</strong
-                        ><time class="my-order-list-item__info-value"
-                          >8 June 2023</time
-                        ></span
-                      >
-                    </div>
-                    <div
-                      class="my-order-list-item__info-block my-order-list-item__info-block--right"
-                    >
-                      <span class="my-order-list-item__info"
-                        ><strong class="my-order-list-item__info-desc"
-                          >Order Status:</strong
-                        ><span class="my-order-list-item__info-value"
-                          >Inprogress</span
-                        ></span
-                      >
-                      <span class="my-order-list-item__info"
-                        ><strong class="my-order-list-item__info-desc"
-                          >Payment Method:</strong
-                        ><span class="my-order-list-item__info-value"
-                          >Cash on delivery</span
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </div>
-                <div class="my-order-list-item__products">
-                  <div class="my-order-list-item__ptoduct-desc">
-                    <img
-                      class="my-order-list-item__ptoduct-thumb"
-                      src="img/section_3_my-order/Rectangle 755 (1).jpg"
-                      alt="foto_my_order"
-                    />
-                    <div class="my-order-list-item__ptoduct-features">
-                      <span class="my-order-list-item__product-name"
-                        >Black Printed T-shirt</span
-                      >
-                      <span class="my-order-list-item__product-param"
-                        >Colour:<span
-                          class="my-order-list-item__product-param-val"
-                          >Pink</span
-                        ></span
-                      >
-                      <span class="my-order-list-item__product-param"
-                        >Qty:<span class="my-order-list-item__product-param-val"
-                          >1</span
-                        ></span
-                      >
-                      <span class="my-order-list-item__product-param"
-                        >Total:<span class="my-order-list-item__product-param-val"
-                          >23000$</span
-                        ></span
-                      >
-                    </div>
-                  </div>
-                  <a  class="round-btn round-btn--purple" href="/">View Detail</a>
-                </div>
-              </li>
-              <li class="my-order-list-item">
-                <div class="my-order-list-item__heading">
-                  <h5 class="my-order-list-item__heading title-h5">
-                    Order no: #123456789
-                  </h5>
-                  <div class="my-order-list-item__data">
-                    <div class="my-order-list-item__info-block">
-                      <span class="my-order-list-item__info"
-                        ><strong class="my-order-list-item__info-desc"
-                          >Order Date:</strong
-                        ><time class="my-order-list-item__info-value"
-                          >2 June 2023 2:40 PM</time
-                        ></span
-                      >
-                      <span class="my-order-list-item__info"
-                        ><strong class="my-order-list-item__info-desc"
-                          >Estimated Delivery Date:</strong
-                        ><time class="my-order-list-item__info-value"
-                          >8 June 2023</time
-                        ></span
-                      >
-                    </div>
-                    <div
-                      class="my-order-list-item__info-block my-order-list-item__info-block--right"
-                    >
-                      <span class="my-order-list-item__info"
-                        ><strong class="my-order-list-item__info-desc"
-                          >Order Status:</strong
-                        ><span class="my-order-list-item__info-value"
-                          >Inprogress</span
-                        ></span
-                      >
-                      <span class="my-order-list-item__info"
-                        ><strong class="my-order-list-item__info-desc"
-                          >Payment Method:</strong
-                        ><span class="my-order-list-item__info-value"
-                          >Cash on delivery</span
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </div>
-                <div class="my-order-list-item__products">
-                  <div class="my-order-list-item__ptoduct-desc">
-                    <img
-                      class="my-order-list-item__ptoduct-thumb"
-                      src="img/section_3_my-order/Rectangle 755 (3).jpg"
-                      alt="foto_my_order"
-                    />
-                    <div class="my-order-list-item__ptoduct-features">
-                      <span class="my-order-list-item__product-name"
-                        >Black Printed T-shirt</span
-                      >
-                      <span class="my-order-list-item__product-param"
-                        >Colour:<span
-                          class="my-order-list-item__product-param-val"
-                          >Pink</span
-                        ></span
-                      >
-                      <span class="my-order-list-item__product-param"
-                        >Qty:<span class="my-order-list-item__product-param-val"
-                          >1</span
-                        ></span
-                      >
-                      <span class="my-order-list-item__product-param"
-                        >Total:<span class="my-order-list-item__product-param-val"
-                          >23000$</span
-                        ></span
-                      >
-                    </div>
-                  </div>
-                  <a  class="round-btn round-btn--purple" href="/">View Detail</a>
-                </div>
-              </li>
-          </ul>
+        <div class="header-auth">
+          <a class="round-btn round-btn--purple" href="#">Login</a>
+          <a class="round-btn round-btn--white" href="#">Sing Up</a>
         </div>
-      </section>
-    </main>
-    <footer></footer>
-  </body>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="categories-for-men">
+      <div class="container">
+        <!-- <div class="euphoria-section-title-background"></div> -->
+        <h2 class="euphoria-section-title">Categories For Men</h2>
+        <ul class="categories-list">
+          <li class="categories-list__item">
+            <img class="categories-list__item-img" src="img/section_2/1.jpg" alt="foto" />
+            <div class="categories-list__item-content">
+              <div class="categories-list__item-info">
+                <a class="categories-list__item-link" href="/">
+                  <h4 class="euphoria-item-title">Shirts</h4>
+                </a>
+                <p class="categories-list__item-desc">Explore Now!</p>
+              </div>
+
+              <a class="categories-list__item-link-arrow" href="/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
+                  <path
+                    d="M18.9571 7.71798C19.2843 7.39075 19.2843 6.86022 18.9571 6.533L13.6247 1.20059C13.2975 0.873368 12.7669 0.873368 12.4397 1.20059C12.1125 1.52781 12.1125 2.05835 12.4397 2.38557L17.1796 7.12549L12.4397 11.8654C12.1125 12.1926 12.1125 12.7232 12.4397 13.0504C12.7669 13.3776 13.2975 13.3776 13.6247 13.0504L18.9571 7.71798ZM0.489258 7.9634L18.3646 7.9634V6.28758L0.489258 6.28758L0.489258 7.9634Z"
+                    fill="#797979" />
+                </svg>
+              </a>
+            </div>
+          </li>
+          <li class="categories-list__item">
+            <img class="categories-list__item-img" src="img/section_2/2.jpg" alt="foto" />
+            <div class="categories-list__item-content">
+              <div class="categories-list__item-info">
+                <a class="categories-list__item-link" href="/">
+                  <h4 class="euphoria-item-title">Printed T-Shirts</h4>
+                </a>
+                <p class="categories-list__item-desc">Explore Now!</p>
+              </div>
+
+              <a class="categories-list__item-link-arrow" href="/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
+                  <path
+                    d="M18.9571 7.71798C19.2843 7.39075 19.2843 6.86022 18.9571 6.533L13.6247 1.20059C13.2975 0.873368 12.7669 0.873368 12.4397 1.20059C12.1125 1.52781 12.1125 2.05835 12.4397 2.38557L17.1796 7.12549L12.4397 11.8654C12.1125 12.1926 12.1125 12.7232 12.4397 13.0504C12.7669 13.3776 13.2975 13.3776 13.6247 13.0504L18.9571 7.71798ZM0.489258 7.9634L18.3646 7.9634V6.28758L0.489258 6.28758L0.489258 7.9634Z"
+                    fill="#797979" />
+                </svg>
+              </a>
+            </div>
+          </li>
+          <li class="categories-list__item">
+            <img class="categories-list__item-img" src="img/section_2/3.jpg" alt="foto" />
+            <div class="categories-list__item-content">
+              <div class="categories-list__item-info">
+                <a class="categories-list__item-link" href="/">
+                  <h4 class="euphoria-item-title">Plain T-Shirt</h4>
+                </a>
+                <p class="categories-list__item-desc">Explore Now!</p>
+              </div>
+
+              <a class="categories-list__item-link-arrow" href="/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
+                  <path
+                    d="M18.9571 7.71798C19.2843 7.39075 19.2843 6.86022 18.9571 6.533L13.6247 1.20059C13.2975 0.873368 12.7669 0.873368 12.4397 1.20059C12.1125 1.52781 12.1125 2.05835 12.4397 2.38557L17.1796 7.12549L12.4397 11.8654C12.1125 12.1926 12.1125 12.7232 12.4397 13.0504C12.7669 13.3776 13.2975 13.3776 13.6247 13.0504L18.9571 7.71798ZM0.489258 7.9634L18.3646 7.9634V6.28758L0.489258 6.28758L0.489258 7.9634Z"
+                    fill="#797979" />
+                </svg>
+              </a>
+            </div>
+          </li>
+          <li class="categories-list__item">
+            <img class="categories-list__item-img" src="img/section_2/4.jpg" alt="foto" />
+            <div class="categories-list__item-content">
+              <div class="categories-list__item-info">
+                <a class="categories-list__item-link" href="/">
+                  <h4 class="euphoria-item-title">
+                    Hoodies & Sweetshirt
+                  </h4>
+                </a>
+                <p class="categories-list__item-desc">Explore Now!</p>
+              </div>
+
+              <a class="categories-list__item-link-arrow" href="/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
+                  <path
+                    d="M18.9571 7.71798C19.2843 7.39075 19.2843 6.86022 18.9571 6.533L13.6247 1.20059C13.2975 0.873368 12.7669 0.873368 12.4397 1.20059C12.1125 1.52781 12.1125 2.05835 12.4397 2.38557L17.1796 7.12549L12.4397 11.8654C12.1125 12.1926 12.1125 12.7232 12.4397 13.0504C12.7669 13.3776 13.2975 13.3776 13.6247 13.0504L18.9571 7.71798ZM0.489258 7.9634L18.3646 7.9634V6.28758L0.489258 6.28758L0.489258 7.9634Z"
+                    fill="#797979" />
+                </svg>
+              </a>
+            </div>
+          </li>
+          <li class="categories-list__item">
+            <img class="categories-list__item-img" src="img/section_2/5.jpg" alt="foto" />
+            <div class="categories-list__item-content">
+              <div class="categories-list__item-info">
+                <a class="categories-list__item-link" href="/">
+                  <h4 class="euphoria-item-title">Jeans</h4>
+                </a>
+                <p class="categories-list__item-desc">Explore Now!</p>
+              </div>
+
+              <a class="categories-list__item-link-arrow" href="/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
+                  <path
+                    d="M18.9571 7.71798C19.2843 7.39075 19.2843 6.86022 18.9571 6.533L13.6247 1.20059C13.2975 0.873368 12.7669 0.873368 12.4397 1.20059C12.1125 1.52781 12.1125 2.05835 12.4397 2.38557L17.1796 7.12549L12.4397 11.8654C12.1125 12.1926 12.1125 12.7232 12.4397 13.0504C12.7669 13.3776 13.2975 13.3776 13.6247 13.0504L18.9571 7.71798ZM0.489258 7.9634L18.3646 7.9634V6.28758L0.489258 6.28758L0.489258 7.9634Z"
+                    fill="#797979" />
+                </svg>
+              </a>
+            </div>
+          </li>
+          <li class="categories-list__item">
+            <img class="categories-list__item-img" src="img/section_2/6.jpg" alt="foto" />
+            <div class="categories-list__item-content">
+              <div class="categories-list__item-info">
+                <a class="categories-list__item-link" href="/">
+                  <h4 class="euphoria-item-title">Activewear</h4>
+                </a>
+                <p class="categories-list__item-desc">Explore Now!</p>
+              </div>
+
+              <a class="categories-list__item-link-arrow" href="/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
+                  <path
+                    d="M18.9571 7.71798C19.2843 7.39075 19.2843 6.86022 18.9571 6.533L13.6247 1.20059C13.2975 0.873368 12.7669 0.873368 12.4397 1.20059C12.1125 1.52781 12.1125 2.05835 12.4397 2.38557L17.1796 7.12549L12.4397 11.8654C12.1125 12.1926 12.1125 12.7232 12.4397 13.0504C12.7669 13.3776 13.2975 13.3776 13.6247 13.0504L18.9571 7.71798ZM0.489258 7.9634L18.3646 7.9634V6.28758L0.489258 6.28758L0.489258 7.9634Z"
+                    fill="#797979" />
+                </svg>
+              </a>
+            </div>
+          </li>
+          <li class="categories-list__item">
+            <img class="categories-list__item-img" src="img/section_2/7.jpg" alt="foto" />
+            <div class="categories-list__item-content">
+              <div class="categories-list__item-info">
+                <a class="categories-list__item-link" href="/">
+                  <h4 class="euphoria-item-title">Shirts</h4>
+                </a>
+                <p class="categories-list__item-desc">Explore Now!</p>
+              </div>
+
+              <a class="categories-list__item-link-arrow" href="/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
+                  <path
+                    d="M18.9571 7.71798C19.2843 7.39075 19.2843 6.86022 18.9571 6.533L13.6247 1.20059C13.2975 0.873368 12.7669 0.873368 12.4397 1.20059C12.1125 1.52781 12.1125 2.05835 12.4397 2.38557L17.1796 7.12549L12.4397 11.8654C12.1125 12.1926 12.1125 12.7232 12.4397 13.0504C12.7669 13.3776 13.2975 13.3776 13.6247 13.0504L18.9571 7.71798ZM0.489258 7.9634L18.3646 7.9634V6.28758L0.489258 6.28758L0.489258 7.9634Z"
+                    fill="#797979" />
+                </svg>
+              </a>
+            </div>
+          </li>
+          <li class="categories-list__item">
+            <img class="categories-list__item-img" src="img/section_2/8.jpg" alt="foto" />
+            <div class="categories-list__item-content">
+              <div class="categories-list__item-info">
+                <a class="categories-list__item-link" href="/">
+                  <h4 class="euphoria-item-title">Shirts</h4>
+                </a>
+                <p class="categories-list__item-desc">Explore Now!</p>
+              </div>
+
+              <a class="categories-list__item-link-arrow" href="/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
+                  <path
+                    d="M18.9571 7.71798C19.2843 7.39075 19.2843 6.86022 18.9571 6.533L13.6247 1.20059C13.2975 0.873368 12.7669 0.873368 12.4397 1.20059C12.1125 1.52781 12.1125 2.05835 12.4397 2.38557L17.1796 7.12549L12.4397 11.8654C12.1125 12.1926 12.1125 12.7232 12.4397 13.0504C12.7669 13.3776 13.2975 13.3776 13.6247 13.0504L18.9571 7.71798ZM0.489258 7.9634L18.3646 7.9634V6.28758L0.489258 6.28758L0.489258 7.9634Z"
+                    fill="#797979" />
+                </svg>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="my-order">
+      <div class="container">
+        <ul class="my-order-list">
+          <li class="my-order-list-item">
+            <div class="my-order-list-item__heading">
+              <h5 class="my-order-list-item__heading-title title-h5">
+                Order no: #123456789
+              </h5>
+              <div class="my-order-list-item__data">
+                <div class="my-order-list-item__info-block">
+                  <span class="my-order-list-item__info"><strong class="my-order-list-item__info-desc">Order
+                      Date:</strong><time class="my-order-list-item__info-value">2 June 2023 2:40 PM</time></span>
+                  <span class="my-order-list-item__info"><strong class="my-order-list-item__info-desc">Estimated
+                      Delivery Date:</strong><time class="my-order-list-item__info-value">8 June 2023</time></span>
+                </div>
+                <div class="my-order-list-item__info-block my-order-list-item__info-block--right">
+                  <span class="my-order-list-item__info"><strong class="my-order-list-item__info-desc">Order
+                      Status:</strong><span class="my-order-list-item__info-value">Inprogress</span></span>
+                  <span class="my-order-list-item__info"><strong class="my-order-list-item__info-desc">Payment
+                      Method:</strong><span class="my-order-list-item__info-value">Cash on delivery</span></span>
+                </div>
+              </div>
+            </div>
+            <div class="my-order-list-item__products">
+              <div class="my-order-list-item__ptoduct-desc">
+                <img class="my-order-list-item__ptoduct-thumb" src="img/section_3_my-order/Rectangle 755 (2).jpg"
+                  alt="foto_my_order" />
+                <div class="my-order-list-item__ptoduct-features">
+                  <span class="my-order-list-item__product-name">Black Printed T-shirt</span>
+                  <span class="my-order-list-item__product-param">Colour:<span
+                      class="my-order-list-item__product-param-val">Pink</span></span>
+                  <span class="my-order-list-item__product-param">Qty:<span
+                      class="my-order-list-item__product-param-val">1</span></span>
+                  <span class="my-order-list-item__product-param">Total:<span
+                      class="my-order-list-item__product-param-val">23000$</span></span>
+                </div>
+              </div>
+              <a class="round-btn round-btn--purple" href="/">View Detail</a>
+            </div>
+          </li>
+          <li class="my-order-list-item">
+            <div class="my-order-list-item__heading">
+              <h5 class="my-order-list-item__heading-title title-h5">
+                Order no: #123456789
+              </h5>
+              <div class="my-order-list-item__data">
+                <div class="my-order-list-item__info-block">
+                  <span class="my-order-list-item__info"><strong class="my-order-list-item__info-desc">Order
+                      Date:</strong><time class="my-order-list-item__info-value">2 June 2023 2:40 PM</time></span>
+                  <span class="my-order-list-item__info"><strong class="my-order-list-item__info-desc">Estimated
+                      Delivery Date:</strong><time class="my-order-list-item__info-value">8 June 2023</time></span>
+                </div>
+                <div class="my-order-list-item__info-block my-order-list-item__info-block--right">
+                  <span class="my-order-list-item__info"><strong class="my-order-list-item__info-desc">Order
+                      Status:</strong><span class="my-order-list-item__info-value">Inprogress</span></span>
+                  <span class="my-order-list-item__info"><strong class="my-order-list-item__info-desc">Payment
+                      Method:</strong><span class="my-order-list-item__info-value">Cash on delivery</span></span>
+                </div>
+              </div>
+            </div>
+            <div class="my-order-list-item__products">
+              <div class="my-order-list-item__ptoduct-desc">
+                <img class="my-order-list-item__ptoduct-thumb" src="img/section_3_my-order/Rectangle 755 (1).jpg"
+                  alt="foto_my_order" />
+                <div class="my-order-list-item__ptoduct-features">
+                  <span class="my-order-list-item__product-name">Black Printed T-shirt</span>
+                  <span class="my-order-list-item__product-param">Colour:<span
+                      class="my-order-list-item__product-param-val">Pink</span></span>
+                  <span class="my-order-list-item__product-param">Qty:<span
+                      class="my-order-list-item__product-param-val">1</span></span>
+                  <span class="my-order-list-item__product-param">Total:<span
+                      class="my-order-list-item__product-param-val">23000$</span></span>
+                </div>
+              </div>
+              <a class="round-btn round-btn--purple" href="/">View Detail</a>
+            </div>
+          </li>
+          <li class="my-order-list-item">
+            <div class="my-order-list-item__heading">
+              <h5 class="my-order-list-item__heading-title title-h5">
+                Order no: #123456789
+              </h5>
+              <div class="my-order-list-item__data">
+                <div class="my-order-list-item__info-block">
+                  <span class="my-order-list-item__info"><strong class="my-order-list-item__info-desc">Order
+                      Date:</strong><time class="my-order-list-item__info-value">2 June 2023 2:40 PM</time></span>
+                  <span class="my-order-list-item__info"><strong class="my-order-list-item__info-desc">Estimated
+                      Delivery Date:</strong><time class="my-order-list-item__info-value">8 June 2023</time></span>
+                </div>
+                <div class="my-order-list-item__info-block my-order-list-item__info-block--right">
+                  <span class="my-order-list-item__info"><strong class="my-order-list-item__info-desc">Order
+                      Status:</strong><span class="my-order-list-item__info-value">Inprogress</span></span>
+                  <span class="my-order-list-item__info"><strong class="my-order-list-item__info-desc">Payment
+                      Method:</strong><span class="my-order-list-item__info-value">Cash on delivery</span></span>
+                </div>
+              </div>
+            </div>
+            <div class="my-order-list-item__products">
+              <div class="my-order-list-item__ptoduct-desc">
+                <img class="my-order-list-item__ptoduct-thumb" src="img/section_3_my-order/Rectangle 755 (3).jpg"
+                  alt="foto_my_order" />
+                <div class="my-order-list-item__ptoduct-features">
+                  <span class="my-order-list-item__product-name">Black Printed T-shirt</span>
+                  <span class="my-order-list-item__product-param">Colour:<span
+                      class="my-order-list-item__product-param-val">Pink</span></span>
+                  <span class="my-order-list-item__product-param">Qty:<span
+                      class="my-order-list-item__product-param-val">1</span></span>
+                  <span class="my-order-list-item__product-param">Total:<span
+                      class="my-order-list-item__product-param-val">23000$</span></span>
+                </div>
+              </div>
+              <a class="round-btn round-btn--purple" href="/">View Detail</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="wishlist">
+      <div class="container">
+        <h3 class="euphoria-title__h3">Wishlist</h3>
+        <ul class="my-wishlist">
+          <li class="my-wishlist-item">
+            <div class="my-wishlist-item__desc">
+              <button class="my-wishlist-item__remove">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                  <path d="M18 4L4 18M18 18L4 4.00001" stroke="#3C4242" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+              </button>
+              <img class="my-wishlist-item__thumb" src="img/section_4/1.jpg" alt="foto">
+              <div class="my-wishlist-item__features">
+                <span class="my-wishlist-item__param">Blue Flower Print Crop Top</span>
+                <span class="my-wishlist-item__param">Color : <span class="my-wishlist-item__param-val">Red</span></span>
+                <span class="my-wishlist-item__param">Quantity : <span class="my-wishlist-item__param-val">1</span></span>
+              </div>
+            </div>
+            <div class="my-wishlist-item__price-info">
+              <span class="my-wishlist-item__total-price">$29.00</span>
+              <button class="my-wishlist-item__add-to-card round-btn round-btn--purple">Add to cart</button>
+            </div>
+          </li>
+          <li class="my-wishlist-item">
+            <div class="my-wishlist-item__desc">
+              <button class="my-wishlist-item__remove">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                  <path d="M18 4L4 18M18 18L4 4.00001" stroke="#3C4242" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+              </button>
+              <img class="my-wishlist-item__thumb" src="img/section_4/2.jpg" alt="foto">
+              <div class="my-wishlist-item__features">
+                <span class="my-wishlist-item__param">Blue Flower Print Crop Top</span>
+                <span class="my-wishlist-item__param">Color : <span class="my-wishlist-item__param-val">Red</span></span>
+                <span class="my-wishlist-item__param">Quantity : <span class="my-wishlist-item__param-val">1</span></span>
+              </div>
+            </div>
+            <div class="my-wishlist-item__price-info">
+              <span class="my-wishlist-item__total-price">$29.00</span>
+              <button class="my-wishlist-item__add-to-card round-btn round-btn--purple">Add to cart</button>
+            </div>
+          </li>
+          <li class="my-wishlist-item">
+            <div class="my-wishlist-item__desc">
+              <button class="my-wishlist-item__remove">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                  <path d="M18 4L4 18M18 18L4 4.00001" stroke="#3C4242" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+              </button>
+              <img class="my-wishlist-item__thumb" src="img/section_4/3.jpg" alt="foto">
+              <div class="my-wishlist-item__features">
+                <span class="my-wishlist-item__param">Blue Flower Print Crop Top</span>
+                <span class="my-wishlist-item__param">Color : <span class="my-wishlist-item__param-val">Red</span></span>
+                <span class="my-wishlist-item__param">Quantity : <span class="my-wishlist-item__param-val">1</span></span>
+              </div>
+            </div>
+            <div class="my-wishlist-item__price-info">
+              <span class="my-wishlist-item__total-price">$29.00</span>
+              <button class="my-wishlist-item__add-to-card round-btn round-btn--purple">Add to cart</button>
+            </div>
+          </li>
+          <li class="my-wishlist-item">
+            <div class="my-wishlist-item__desc">
+              <button class="my-wishlist-item__remove">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                  <path d="M18 4L4 18M18 18L4 4.00001" stroke="#3C4242" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+              </button>
+              <img class="my-wishlist-item__thumb" src="img/section_4/4.jpg" alt="foto">
+              <div class="my-wishlist-item__features">
+                <span class="my-wishlist-item__param">Blue Flower Print Crop Top</span>
+                <span class="my-wishlist-item__param">Color : <span class="my-wishlist-item__param-val">Red</span></span>
+                <span class="my-wishlist-item__param">Quantity : <span class="my-wishlist-item__param-val">1</span></span>
+              </div>
+            </div>
+            <div class="my-wishlist-item__price-info">
+              <span class="my-wishlist-item__total-price">$29.00</span>
+              <button class="my-wishlist-item__add-to-card round-btn round-btn--purple">Add to cart</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+
 </html>
