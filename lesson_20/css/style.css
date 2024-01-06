@@ -1,0 +1,107 @@
+@import "_reset.css";
+@import "_fonts.css";
+.container {
+  width: min(90%, 895px);
+  margin: 0 auto;
+}
+
+.my-order-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.my-order-list .my-order-list-item {
+  border-bottom: 1px solid #EDEEF2;
+}
+.my-order-list .my-order-list-item__heading {
+  background: #F6F6F6;
+  border-radius: 8px;
+  padding: 28px 47px 28px 47px;
+}
+.my-order-list .my-order-list-item__heading-title {
+  margin-bottom: 14px;
+}
+.my-order-list .my-order-list-item__info {
+  font-family: "Causten", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+}
+.my-order-list .my-order-list-item__info-block {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.my-order-list .my-order-list-item__info-block--right {
+  align-items: flex-end;
+}
+.my-order-list .my-order-list-item__info-desc {
+  color: #807D7E;
+  font-weight: 600;
+}
+.my-order-list .my-order-list-item__info-value {
+  color: #BEBCBD;
+  font-weight: 400;
+}
+.my-order-list .my-order-list-item__data {
+  display: flex;
+  justify-content: space-between;
+}
+.my-order-list .title-h5 {
+  color: #3C4242;
+  font-family: "Causten", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.my-order-list .my-order-list-item__product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.my-order-list .my-order-list-item__product-desc {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.my-order-list .my-order-list-item__product-features {
+  display: flex;
+  flex-direction: column;
+  font-family: "Causten", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 600;
+}
+.my-order-list .my-order-list-item__product-name {
+  color: #3C4242;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.my-order-list .my-order-list-item__product-param {
+  color: #3C4242;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.my-order-list .my-order-list-item__product-param-val {
+  color: #BEBCBD;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.my-order-list .round-btn {
+  display: block;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  text-align: center;
+  font-family: "Causten", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 12px 48px;
+}
+.my-order-list .round-btn--purple {
+  background-color: #8a33fd;
+  color: white;
+}

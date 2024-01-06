@@ -251,6 +251,10 @@ line-height: normal;
 
 }
 
+.my-order-list-item__info-block--right {
+  align-items: flex-end;
+}
+
 .my-order-list-item__info {
 font-family: 'Causten', sans-serif;
 font-size: 14px;
@@ -275,13 +279,13 @@ align-items: center;
 padding: 30px 0;
 }
 
-.my-order-list-item__ptoduct-desc {
+.my-order-list-item__product-desc {
     display: flex;
     flex-direction: row;
     gap: 25px;
 }
 
-.my-order-list-item__ptoduct-features {
+.my-order-list-item__product-features {
 display: flex;
 flex-direction: column;
 font-family: 'Causten', sans-serif;
